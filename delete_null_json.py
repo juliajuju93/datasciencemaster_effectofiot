@@ -1,5 +1,5 @@
 import os
-img_folder_path = 'C:/Masterarbeit/No_Score_7/'
+img_folder_path = 'C:/Masterarbeit/No_Score/'
 path = img_folder_path
 dirListing = os.listdir(img_folder_path)
 print(len(dirListing))
