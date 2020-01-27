@@ -40,7 +40,7 @@ def extract_element_from_json(obj, path):
             outer_arr.append(extract(item, path, 0, []))
         return outer_arr
 
-img_folder_path = 'C:/Masterarbeit/No_Score_9/'
+img_folder_path = 'C:/Masterarbeit/No_Score/'
 path = img_folder_path
 files = []
 for r, d, f in os.walk(path):
